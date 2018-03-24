@@ -3,6 +3,10 @@ import express from 'express'
 import httpProxyMiddleware from 'http-proxy-middleware'
 import historyApiFallback from 'connect-history-api-fallback'
 
+const {  
+  prepareProxy,
+} = require('react-dev-utils/WebpackDevServerUtils');
+
 export default class Server {
   constructor(baseDir, publicPath, port, proxy) {
     const app = express()
@@ -25,7 +29,9 @@ export default class Server {
     )
 
     if (proxy) {
-      if (typeof proxy !== "string") throw new Error("Only string proxies are implemented currently.")
+  
+      const proxyConfig = prepareProxy(proxy, publicPath);
+
       app.use(httpProxyMiddleware({
         target: proxy,
         onProxyReq: proxyReq => {
