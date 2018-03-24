@@ -33,7 +33,7 @@ export default class Server {
       const proxyConfig = prepareProxy(proxy, publicPath);
       console.log(proxyConfig);
       proxyConfig.map((config) => {
-        app.use(httpProxyMiddleware({config}));
+        app.use(httpProxyMiddleware(config));
       });
       
     }
