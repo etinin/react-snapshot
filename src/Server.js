@@ -29,8 +29,9 @@ export default class Server {
     )
 
     if (proxy) {
-  
+      console.log(publicPath);
       const proxyConfig = prepareProxy(proxy, publicPath);
+      console.log(proxyConfig);
       proxyConfig.map((config) => {
         app.use(httpProxyMiddleware({config}));
       });
