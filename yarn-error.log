@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-dev-utils
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js prepublish
 
 PATH: 
   D:\Program Files\ImageMagick-7.0.7-Q16;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\PuTTY\;C:\Users\Alexandre\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Python27\Scripts\;D:\protoc-3.5.0-win32\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\Yarn\bin\;C:\Users\Alexandre\AppData\Local\Microsoft\WindowsApps;C:\Users\Alexandre\AppData\Local\atom\bin;C:\Users\Alexandre\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Alexandre\AppData\Local\Microsoft\WindowsApps;C:\Python27;D:\Program Files\Microsoft VS Code\bin;D:\apache-maven-3.5.2\bin;D:\php-5.6.33;C:\Users\Alexandre\AppData\Local\Yarn\bin;C:\Users\Alexandre\.dotnet\tools;C:\Program Files (x86)\Nmap;D:\Program Files (x86)\SWFTools;
