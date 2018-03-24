@@ -31,15 +31,10 @@ export default class Server {
     if (proxy) {
   
       const proxyConfig = prepareProxy(proxy, publicPath);
-
-      app.use(httpProxyMiddleware({
-        target: proxy,
-        onProxyReq: proxyReq => {
-          if (proxyReq.getHeader('origin')) proxyReq.setHeader('origin', proxy)
-        },
-        changeOrigin: true,
-        xfwd: true,
-      }))
+      proxyConfig.map((config) => {
+        app.use(httpProxyMiddleware({config}));
+      });
+      
     }
 
     this.start = this.start.bind(this, app, port)
