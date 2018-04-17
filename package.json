@@ -17,7 +17,7 @@
     "express": "^4.15.2",
     "glob-to-regexp": "^0.3.0",
     "http-proxy-middleware": "^0.17.4",
-    "jsdom": "^9.4.5",
+    "jsdom": "^11.8.0",
     "mkdirp": "^0.5.1",
     "react-dev-utils": "^5.0.0",
     "safe-commander": "^2.11.1"

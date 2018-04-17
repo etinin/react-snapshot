@@ -1,6 +1,6 @@
 /* Wraps a jsdom call and returns the full page */
 
-import jsdom from 'jsdom'
+import jsdom from "jsdom/lib/old-api.js"
 
 export default (protocol, host, path, delay) => {
   return new Promise((resolve, reject) => {
