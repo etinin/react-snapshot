@@ -2,7 +2,7 @@
  Emits a full page whenever a new link is found. */
 import url from 'url'
 import path from 'path'
-import jsdom from 'jsdom'
+import jsdom from "jsdom/lib/old-api.js"
 import glob from 'glob-to-regexp'
 import snapshot from './snapshot'
 
